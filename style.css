@@ -22,6 +22,17 @@ body {
 	margin: 25px 0;
 }
 
+.nft-card-middle {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nft-card-inline-icon {
+	position: relative;
+	margin: 0 5px;
+	top: 2px;
+}
+
 .nft-card-image {
 	width: 300px;
 	height: auto;
@@ -29,12 +40,22 @@ body {
 }
 
 .nft-card-head {
+	font-size: 1.2em;
+	font-weight: 500;
 	margin: 25px 0;
 	color: rgb(255, 255, 255);
 }
 
 .nft-card-divider {
 	width: 100%;
+}
+
+.nft-card-avatar {
+	position: relative;
+	top: -.4em;
+	width: 2em;
+	margin-right: .5em;
+	float: left;
 }
 
 .nft-card-time {
