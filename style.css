@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap');
+
+body {
+	background-color: hsl(217, 54%, 11%);
+}
+
+.nft-card {
+	box-sizing: border-box;
+	font-size: 18px;
+	font-family: 'Outfit', sans-serif;
+	color: hsl(215, 51%, 70%);
+	background-color: hsl(216, 50%, 16%);
+	width: fit-content;
+	margin: 1em auto;
+	border-radius: 15px;
+	padding: 25px;
+	width: 350px;
+}
+
+
+.nft-card > div {
+	margin: 25px 0;
+}
+
+.nft-card-image {
+	width: 300px;
+	height: auto;
+	border-radius: 8px;
+}
+
+.nft-card-head {
+	margin: 25px 0;
+	color: rgb(255, 255, 255);
+}
+
+.nft-card-divider {
+	width: 100%;
+}
+
+.nft-card-time {
+	height: 1em;
+}
