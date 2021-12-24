@@ -23,6 +23,21 @@ body {
 	padding: 0;
 }
 
+.nft-card-head a {
+	font-size: 1.2em;
+	font-weight: 500;
+	margin: 25px 0;
+	color: rgb(255, 255, 255);
+}
+
+.nft-card a {
+	text-decoration: none;
+}
+
+.nft-card a:hover  {
+	color: hsl(178, 100%, 50%);
+}
+
 .nft-card-price {
 	color: hsl(178, 100%, 50%);
 	font-weight: 500;
@@ -44,26 +59,9 @@ body {
 }
 
 .nft-card-image {
-	/*width: 300px;*/
 	width: 100%;
 	height: auto;
 	border-radius: 8px;
-}
-
-.nft-card-head a {
-	font-size: 1.2em;
-	font-weight: 500;
-	margin: 25px 0;
-	color: rgb(255, 255, 255);
-}
-
-
-.nft-card a {
-	text-decoration: none;
-}
-
-.nft-card a:hover  {
-	color: hsl(178, 100%, 50%);
 }
 
 .nft-card-divider {
