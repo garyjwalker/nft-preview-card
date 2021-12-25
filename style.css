@@ -58,11 +58,38 @@ body {
 	top: 2px;
 }
 
+
+
+.nfl-card-image-container {
+	position: relative;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+	background-color: hsl(178, 100%, 50%);
+	border-radius: 10px;
+}
+
+.nfl-card-image-container:hover::before {
+	content: url(images/icon-view.svg);
+	width: 50px;
+	height: auto;
+	position: absolute;
+	left: 125px;
+	top: 125px;
+}
+
 .nft-card-image {
 	width: 100%;
 	height: auto;
 	border-radius: 8px;
+	margin: 0;
+	padding: 0;
 }
+
+.nft-card-image:hover {
+	opacity: 50%;
+}
+
 
 .nft-card-divider {
 	width: 100%;
